@@ -10,11 +10,11 @@ Fork this repository and create a clone of it:
 git clone https://github.com/<your username>/educator-progress-dashboard.git
 ```
 
-Add the list of your student's Github usernames to the `STUDENTS` constant in `gitmastery.config.ts` (without `@`).
+Set the name of your class in `config/gitmastery.config.ts`
 
-If you wish to shortlist and filter the list of exercises that you want to monitor, add it to the filter list in `EXERCISES` constant in `gitmastery.config.ts`.
+Add the list of your student's Github usernames to the `config/students.csv` file.
 
-Set the class name to display on the webpage using the `CLASS_NAME` constant in `gitmastery.config.ts`.
+If you wish to shortlist and filter the list of exercises that you want to monitor, add it to the filter list in `config/exercises.csv` file.
 
 Install all dependencies:
 
