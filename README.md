@@ -10,6 +10,8 @@ Fork this repository and create a clone of it:
 git clone https://github.com/<your username>/educator-progress-dashboard.git
 ```
 
+Enable Github Pages with the fork via Settings > Pages > Source > Set to Github Actions.
+
 Set the name of your class in `config/gitmastery.config.ts`
 
 Add the list of your student's Github usernames to the `config/students.csv` file.
